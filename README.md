@@ -8,7 +8,7 @@ Introducir el análisis de imágenes/video en el lenguaje de [Processing](https:
 
 Implementar las siguientes operaciones de análisis para imágenes/video:
 
-* Conversión a escala de grises.
+* Conversión a escala de grises: promedio _rgb_ y [luma](https://en.wikipedia.org/wiki/HSL_and_HSV#Disadvantages).
 * Aplicación de algunas [máscaras de convolución](https://en.wikipedia.org/wiki/Kernel_(image_processing)).
 * (solo para imágenes) Despliegue del histograma.
 * (solo para imágenes) Segmentación de la imagen a partir del histograma.
@@ -23,11 +23,11 @@ Distribuciones recientes de Linux que emplean `gstreamer >=1`, requieren alguna 
 1. [Beta oficial](https://github.com/processing/processing-video/releases).
 2. [Gohai port](https://github.com/gohai/processing-video/releases/tag/v1.0.2).
 
-Descompriman el archivo `*.zip` en la caperta de `libraries` de su sketchbook (e.g., `$HOME/sketchbook/libraries`) para instalarla y prueben cual de las dos les funciona.
+Descompriman el archivo `*.zip` en la caperta de `libraries` de su sketchbook (e.g., `$HOME/sketchbook/libraries`) y probar cuál de las dos va mejor.
 
 ## Integrantes
 
-Complete la tabla:
+Completar la tabla:
 
 | Integrante | github nick |
 |------------|-------------|
@@ -39,5 +39,4 @@ Complete la tabla:
 
 ## Entrega
 
-* Hacer [fork](https://help.github.com/articles/fork-a-repo/) de la plantilla. Plazo: ~~28/4/19~~ 5/5/19 a las 24h.
-* (todos los integrantes) Presentar el trabajo presencialmente en la siguiente sesión de taller.
+* Plazo para hacer _push_ del repositorio a github: 29/9/19 a las 24h.
